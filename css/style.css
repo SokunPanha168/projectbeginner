@@ -1,0 +1,129 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.header h1,.header p{
+    text-align: center;
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+      display: block;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+}
+.menu ul li:last-child{
+    float: right;
+}
+
+.menu ul li:hover >a{
+    background-color: gray;
+}
+
+
+.box1{
+    float: left;
+    width: 79%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.box1 .img-box{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+}
+
+.box1 p{
+    text-align: justify;
+}
+
+
+.about{
+    float: right;
+    width: 20%;
+    background-color: white;
+    padding:  0px 15px;
+    box-sizing: border-box;
+}
+
+.about .img-box{
+    width: 100%;
+    background-color: grey;
+    height: 150px;
+}
+
+
+.popular{
+    width: 20%;
+    margin-top: 10px;
+    
+    background-color: white;
+    float: right;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.popular .img-box{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+.box1-copy{
+    margin-top: 10px;
+}
+
+.follow{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 10px;
+    float: right;
+    width: 20%;
+   
+    background-color: white;
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
+
+}
